@@ -1,14 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Accordion Collapsible Content</title>
-        <link rel="stylesheet" href="css/main.css">
-    </head>
-    <body>
-        <section class="accordion">
-            <h1>Hello World</h1>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accordion Collapsible Content</title>
+    <link rel="stylesheet" href="css/main.css">
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <section class="accordion">
+        <section class="accordion-container" id="refurb-macBooks">
+            <a href="#refurb-macBooks" class="accordion-container-btn">
+                <i class="fas fa-angle-down"></i>
+                Can you buy refurb MacBooks?
+            </a>
+            <section class="accordion-container-sub">
+                <p>
+                    Yes refurb or refurbished MacBooks are a very popular way of buying a cheap MacBook. 
+                    Whilst new MacBooks are typically faster, used/second hand/refurb MacBooks cost a fraction of the price of a new machine and are seen as a very cost effective way of buying a MacBook, 
+                    especially as the MacBooks MacDaddy sell come with a 1 year warranty and are refurbished by a certified Mac Technician.
+                </p>
+            </section>
         </section>
-    </body>
+        <li class="accordion-container" id="refurbished-macBooks">
+            <a href="#refurbished-macBooks" class="accordion-container-btn">
+                <i class="fas fa-angle-down"></i>
+                Are refurbished MacBooks OK to buy?
+            </a>
+            <section class="accordion-container-sub">
+                <p>
+                    Yes of course! That’s why they come with a 1 year warranty. 
+                    We suggest you only buy from a company that sells certified refurbished MacBooks, so that you know the MacBook has been thoroughly checked and replacement parts have been fitted by a highly trained individual. 
+                    If you’re not happy with your preloved MacBook then you can always return it within 14 days
+                </p>
+            </section>
+        </li>
+    </section>
+</body>
+
 </html>
